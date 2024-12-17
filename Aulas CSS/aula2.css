@@ -1,0 +1,50 @@
+.banner{
+    background-color: aqua;
+    color: gray;
+    padding: 20px;
+    font: 25px;
+    text-align: center;
+}
+
+.painel{
+    font: comic sans ms;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 20px
+}
+
+.painel:hover{
+    text-align: right;
+    background-color: blue;
+    transition: 2s;
+}
+
+
+.menu{
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.5;
+}
+
+.menu div{
+    border: 2px solid burlywood;
+    margin: 5px;
+    transition: 0.3;
+    width: 30%;
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.menu div:hover{
+    background-color: azure;
+    transition: 2s;
+    width: 50%;
+    scale: 1.2;
+
+}

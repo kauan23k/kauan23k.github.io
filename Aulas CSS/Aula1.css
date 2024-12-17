@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(100, 42, 42);
+    color: white;
+    font-family: comic sans ms;
+}
+
+h1{
+    color: rgb(128, 77, 0);
+    background-color: brown;
+    margin: 0px;
+}
+
+p{
+    color: red;
+    background-color: gray;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.276);
+    text-align: center;
+    margin-bottom:  50px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 50px 20px 50px 20px;
+    border: 1px solid white;
+    /* solid, dotted, dashed, inset, outset, double*/
+    border-radius: 2px;
+    width: 94%;
+    height: 40px;
+}
+
