@@ -1,0 +1,24 @@
+nav {
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav > a{
+    color: azure;
+    text-decoration: none;
+    padding: 7px;
+    background-color: aqua;
+    width: 75px;
+    text-align: center;
+    transition: 0.4s;
+    font-family: Candara;
+     border-radius: 10px;
+}
+
+nav > a:hover {
+    background-color:   rgb(51, 148, 148) ;
+    width: 80px;
+
+}
