@@ -1,11 +1,15 @@
 nav {
     background-color: aqua;
     display: flex;
-    padding: 10px;
-    justify-content: center;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav > a{
+.links{
+    display: flex;
+}
+.links > a{
     color: azure;
     text-decoration: none;
     padding: 7px;
@@ -17,8 +21,38 @@ nav > a{
      border-radius: 10px;
 }
 
-nav > a:hover {
+.links > a:hover {
     background-color:   rgb(51, 148, 148) ;
     width: 80px;
 
+}
+nav > img{
+    height:40px;
+    
+}
+
+.pesquisar {
+
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    display: flex;
+    
+}
+
+.pesquisar > input {
+
+    border: none;
+    outline: none;
+    background-color: aqua;
+    width: 100px;
+}
+
+.pesquisar > button {
+
+    border: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
 }
